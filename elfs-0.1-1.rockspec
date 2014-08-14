@@ -1,7 +1,7 @@
 package = "elfs"
 version = "0.1-1"
 source = {
-  url = "http://git.xeserv.us/xena/elfs"
+  url = "git://github.com/Xe/elfs.git"
 }
 
 description = {
