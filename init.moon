@@ -1,6 +1,6 @@
 socket = require "socket"
 
-module "namegen", package.seeall
+module "elfs", package.seeall
 
 export ^
 

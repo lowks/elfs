@@ -1,5 +1,5 @@
 package = "elfs"
-version = "0.1-1"
+version = "0.1-2"
 source = {
   url = "git://github.com/Xe/elfs.git"
 }
@@ -14,15 +14,11 @@ description = {
   license = "None" -- or whatever you like
 }
 dependencies = {
-  "lua ~> 5.1",
   "moonscript"
 }
 build = {
-  -- We'll start here.
   type = "builtin",
   modules = {
-    namegen = "namegen.lua",
-    names = "names.lua",
-    moves = "moves.lua"
+    ["elfs"] = "init.lua",
   }
 }

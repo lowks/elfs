@@ -1,3 +1,3 @@
-ng = require "namegen"
+ng = require "elfs"
 
 print ng.GenName!
