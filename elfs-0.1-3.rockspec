@@ -14,7 +14,7 @@ description = {
   license = "None" -- or whatever you like
 }
 dependencies = {
-  "moonscript"
+  "luasocket"
 }
 build = {
   type = "builtin",
