@@ -1,5 +1,5 @@
 package = "elfs"
-version = "0.1-2"
+version = "0.1-3"
 source = {
   url = "git://github.com/Xe/elfs.git"
 }
@@ -20,5 +20,7 @@ build = {
   type = "builtin",
   modules = {
     ["elfs"] = "init.lua",
+    ["elfs.names"] = "names.lua",
+    ["elfs.moves"] = "moves.lua",
   }
 }
