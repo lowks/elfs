@@ -6,8 +6,8 @@ export ^
 
 math.randomseed socket.gettime!*10000
 
-names = require "names"
-moves = require "moves"
+names = require "elfs.names"
+moves = require "elfs.moves"
 
 getElement = (list) ->
   list[math.random(#list)]\lower!\gsub "-", ""
