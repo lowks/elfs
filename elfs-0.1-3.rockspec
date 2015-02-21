@@ -10,7 +10,7 @@ description = {
   A simple moonscript rock to generate names from Pokemon
   Vietnamese Crystal.
   ]],
-  homepage = "http://github.com/Xe", -- We don't have one yet
+  homepage = "http://github.com/Xe/elfs", -- We don't have one yet
   license = "None" -- or whatever you like
 }
 dependencies = {
