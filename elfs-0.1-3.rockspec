@@ -5,7 +5,7 @@ source = {
 }
 
 description = {
-  summary = "ELF MONATAR GENERATER",
+  summary = "ELF MONATAR GENERATOR",
   detailed = [[
   A simple moonscript rock to generate names from Pokemon
   Vietnamese Crystal.
